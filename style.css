@@ -59,6 +59,7 @@ section{
     font-size: 100px;
     transform: translate(-10%,-70%);
     color: white;
+    z-index: 3 ;
 }
 
 .hero::after{
@@ -69,4 +70,16 @@ section{
     position: absolute;
     top: 0;
     left: 0;
+    opacity: 0.4;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        min-height: 12vh;    
+    }
+    .headline{
+        font-size: 40px;
+        top: 95%;
+        left: 35%;
+    }
 }
