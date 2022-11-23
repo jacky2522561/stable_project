@@ -119,8 +119,8 @@ section{
     .nav-links{
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 30vh;
+        top: 10vh;
         background-color: rgb(177, 170, 159);
         display: flex;
         flex-direction: column;
